@@ -8,13 +8,13 @@ import os
 os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = '/usr/share/qt'
 
 img01= io.imread('..//Dataset//4.2.05.tiff')
-io.imshow(img01)
-io.show()
+# io.imshow(img01)
+# io.show()
 
 # Gaussian
 f = ndi.gaussian_filter(img01, 0.5)
-io.imshow(f)
-io.show()
+# io.imshow(f)
+# io.show()
 
 # Laplacian
 r, g, b = cv2.split(img01)

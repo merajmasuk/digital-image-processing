@@ -43,7 +43,7 @@ On Windows, you can activate by the following (remember to unrestrict the script
 venv\Scripts\activate.psql
 ```
 
-Alternatiely, you can use `venv\Scripts\activate.bat`. But it's not reliable and may not always work on the modern versions of Windows.
+Alternatively, you can use `venv\Scripts\activate.bat`. But it's not reliable and may not always work on the modern versions of Windows.
 
 4. Install ipykernel. This package provides the Jupyter Notebook kernel for the virtual environment.
 
